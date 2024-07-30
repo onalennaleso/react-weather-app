@@ -7,10 +7,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-        <weather/>
+        <Weather/>
       <footer>
         This project was coded by Onalenna Leso and is {" "}
-        <a href="https://github.com/onalennaleso/react-weather-app" target="_blank">
+        <a href="https://github.com/onalennaleso/react-weather-app" target="_blank" rel='noreferrer'>
         open-sourced on GitHub
         </a>
         </footer>
@@ -18,5 +18,3 @@ export default function App() {
     </div>
   );
 }
-
-

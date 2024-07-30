@@ -7,11 +7,12 @@ export default function Weather() {
             <form>
                 <div classname="row">
                     <div classname="col=9">
-                        <imput type="search" placeholder="Entera city.." classname="form-control" autofocus="on"/>
+                        <imput type="search" placeholder="Entera city.." classname="form-control" autofocus="on" />
                     </div>
                     <div classname="col-3">
                         <imput type="submit" value="Search" classname="btn btn-primary w-100" />
                     </div>
+                </div>
             </form>
             <h1>New York</h1>
             <ul>
@@ -21,9 +22,9 @@ export default function Weather() {
             <div classname="row mt-3">
                 <div classname="col-6">
                     <div className="clearfix">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly cloudy" />
-                    <span classname="temperature">6</span>
-                    <span classname="unit">°C</span>
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly cloudy" />
+                        <span classname="temperature">6</span>
+                        <span classname="unit">°C</span>
                     </div>
                 </div>
                 <div classname="col-6">
